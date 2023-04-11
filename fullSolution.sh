@@ -38,7 +38,11 @@ useradd -N -m -c "Rogério" -G GRP_SEC -s /bin/bash -p $(openssl passwd senha123
 
 echo "Users successfully created!"
 
+echo "Correcting folders permissions..."
+
 chmod 777 publico
 chmod 770 adm
 chmod 770 ven
 chmod 770 sec
+
+echo "All done!"
