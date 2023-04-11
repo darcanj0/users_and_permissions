@@ -1,6 +1,3 @@
-#! /bin/bash
-su
-
 echo "Creating folders..."
 
 mkdir publico adm ven sec
