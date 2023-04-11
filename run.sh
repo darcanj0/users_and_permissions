@@ -1,3 +1,2 @@
 #! /bin/bash
-su
-chmod +x ./fullSolution.sh
+sudo chmod +x ./fullSolution.sh
